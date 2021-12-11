@@ -1,0 +1,43 @@
+
+
+.loginWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel {
+    background-color: var(--primary-color);
+    height: 10rem;
+    width: 10rem;
+}
+
+.panel input {
+    height: 2rem;
+}
+
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputWrapper input {
+    margin-top: 6rem;
+    text-align: center;
+}
+
+.inputWrapper button {
+    background-color: var(--secondary-green);
+    opacity: 0.7;
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
+    margin-top: 4px;
+    border-radius: 8px;
+    margin-bottom: 5rem;
+    transition: all 0.1s ease-in-out;
+}
+
+.inputWrapper button:hover {
+    background: #c4f76a;
+    transform: scale(1.08);
+}

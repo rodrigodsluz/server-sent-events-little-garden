@@ -1,0 +1,42 @@
+
+.sbContainer {
+    display: inline-flex;
+}
+
+.sbBackground {
+    min-width: 8rem;
+    width: 16vw;
+    background-color: var(--secondary-brown);
+    min-height: 100vw;
+    height: 100%;
+    z-index: 10;
+}
+
+.sbBackground h3 {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    pointer-events: none;
+    margin: 25px 32px 0 45px;
+    color: var(--primary-green);
+    font-size: 18px;
+    animation: leaves 8s ease-in-out infinite alternate;
+    animation-delay: 10s;
+    max-width: 10vw;
+}
+
+@keyframes leaves {
+    0% {
+        transform: scaleZ(0.6);
+    }
+    100% {
+        transform: scale(1.02);
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .sbBackground {
+      min-width: 12rem;
+    }
+}
+

@@ -1,0 +1,31 @@
+
+.mainWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.panel h3 {
+    margin-top: 10px;
+    max-height: 30px;
+    color: red;
+}
+
+.panel h2 {
+    max-height: 50px;
+    color: red;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/textures/grass.png');
+    background-repeat: repeat;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 12px;
+}

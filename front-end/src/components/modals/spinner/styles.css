@@ -1,0 +1,19 @@
+
+.modalBlock {
+    gap: 20px;
+    color: var(--tertiary-green);
+    max-height: 50vh;
+}
+
+.loadingHeader {
+    max-height: 10vh;
+    color: white;
+    background: rgb(61,103,24);
+    background: linear-gradient(90deg, rgba(61,103,24,1) 30%, rgb(58, 109, 13) 68%, rrgb(59, 112, 13)100%);
+}
+
+.loadingBody {
+    max-height: 55vh;
+    border: none;
+    background-color: var(--secondary-brown);
+}

@@ -1,0 +1,133 @@
+
+
+.statsWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.statsPanel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/textures/grass.png');
+    background-repeat: repeat;
+    height: 25rem;
+    width: 20rem;
+    border-radius: 12px;
+}
+
+.tab {
+    max-height: 10rem;
+}
+
+.tab button {
+    background-color: var(--primary-green);
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    margin-top: 30px;
+    height: 3rem;
+  }
+  
+.tab button:hover {
+background-color: rgb(0, 0, 0, 0);
+}
+
+.tab button.active {
+background-color: var(--secondary-green);
+}
+
+.tabcontent {
+display: none;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: var(--primary-green);
+border: 3px solid #ccc;
+border-top: none;
+height: 10rem;
+width: 80%;
+}
+
+#date {
+    font-family: sans-serif;
+    font-size: 10px;
+    margin: 5px;
+    margin-bottom: 20px;
+    min-height: 20px;
+    height: 3rem;
+}
+
+#action {
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 10px;
+    margin: 5px;
+    margin-top: -35px;
+    min-height: 20px;
+    height: 2rem;
+}
+
+#Users ol {
+    width: auto;
+    overflow-y: scroll;
+    margin-top: 10px;
+    justify-self: center;
+    align-self: center;
+    padding: 0 25 25 25;
+    width: 100%;
+}
+
+#Users .title {
+    margin-bottom: 30px;
+    margin-left: -10px;
+    justify-content: center;
+}
+
+#Users .title h5 {
+    font-weight: bolder;
+}
+
+.tabcontent ul {
+    margin-top: -20px;
+}
+
+.tabcontent li {
+    font-family: sans-serif;
+    font-size: 12px;
+    height: 10px;
+    margin: 10px 0;
+    line-height: 10px;
+    font-weight: bold;
+}
+
+.cllr {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.goBackStats {
+    padding: 10px;
+    border: 3px solid var(--primary-green);
+    border-radius: 60px;
+    color: var(--primary-green);
+    position: absolute;
+    height: 60px;
+    top: 20px;
+    left: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.goBackStats:hover {
+    transform: scale(1.4);
+    border: 2px solid rgb(22, 255, 22);;
+    color:rgb(22, 255, 22);
+}

@@ -1,0 +1,13 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+    font-family: 'Righteous', cursive;
+    height:105vh;
+    min-height: 100%;
+    width: 100vw;
+    background: var(--primary-brown) url('../src/assets/textures/rough_texture.png') repeat;
+    opacity: 1;
+    background-blend-mode: color-dodge;
+}
+
