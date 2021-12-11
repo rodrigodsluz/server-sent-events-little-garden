@@ -1,0 +1,58 @@
+# Time Intervals Example: 1 h, 30 m, 15 m, 5 h...
+# Always separate it with a space.
+
+## Garden:
+## This will be the initial amount
+garden:
+  fruits:
+    strawberries: 4
+    apples: 4
+  flowers:
+    sunflowers: 4
+    roses: 3
+    orchids: 4
+  decorations:
+    benches: 4
+  animals:
+    dogs: 4
+    ducks: 3
+
+# max = maximum instances of fruit spawned
+fruits:
+  apple:
+    max: 5
+    growth_interval: "1 m"
+    harvesting_interval: "2 m"
+    watering_interval: "3 m"
+  strawberry:
+    max: 4
+    growth_interval: "2 m"
+    harvesting_interval: "3 m"
+    watering_interval: "1 m"
+
+flowers:
+  sunflower:
+    watering_interval: "1 m"
+    pollination_interval: "2 m"
+  rose:
+    watering_interval: "1 m"
+    pollination_interval: "2 m"
+  orchid:
+    watering_interval: "2 m"
+    pollination_interval: "1 m"
+
+decorations:
+  bench:
+    cleaning_interval: "3 m"
+
+animals:
+  dog:
+    petting_interval: "1 m"
+    feeding_interval: "2 m"
+  duck:
+    petting_interval: "3 m"
+    feeding_interval: "3 m"
+
+users:
+  max_users: 4
+  max_nickname_length: 15
